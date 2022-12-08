@@ -12,6 +12,7 @@
   "record_calls",
   "whatsapp_section",
   "whatsapp_no",
+  "twilio_number",
   "column_break_8",
   "reply_message",
   "section_break_6",
@@ -43,20 +44,17 @@
   {
    "fieldname": "api_key",
    "fieldtype": "Data",
-   "label": "API Key",
-   "permlevel": 1
+   "label": "API Key"
   },
   {
    "fieldname": "api_secret",
    "fieldtype": "Password",
-   "label": "API Secret",
-   "permlevel": 1
+   "label": "API Secret"
   },
   {
    "fieldname": "twiml_sid",
    "fieldtype": "Data",
-   "label": "TwiML SID",
-   "permlevel": 1
+   "label": "TwiML SID"
   },
   {
    "fieldname": "column_break_3",
@@ -72,8 +70,7 @@
    "fieldname": "outgoing_voice_medium",
    "fieldtype": "Link",
    "label": "Outgoing Voice Medium",
-   "options": "Communication Medium",
-   "permlevel": 1
+   "options": "Communication Medium"
   },
   {
    "fieldname": "section_break_6",
@@ -103,12 +100,17 @@
    "fieldtype": "Small Text",
    "label": "Reply Message",
    "mandatory_depends_on": "whatsapp_no"
+  },
+  {
+   "fieldname": "twilio_number",
+   "fieldtype": "Data",
+   "label": "Twilio Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2021-07-08 00:46:42.317641",
+ "modified": "2022-03-03 21:24:15.632429",
  "modified_by": "Administrator",
  "module": "Twilio Integration",
  "name": "Twilio Settings",
